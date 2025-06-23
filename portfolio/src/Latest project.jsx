@@ -1,4 +1,8 @@
 import { SquareArrowOutUpRight } from 'lucide-react';
+import Bestbrighness from './assets/Bestbrighness.jpg';
+import WIXweb from './assets/WIXweb.jpg';
+import LeelaFashion from  './assets/LeelaFashion.jpg';
+import Portfolio from './assets/Portfolio.jpg';
 
 function LatestProject() {
   return (
@@ -9,24 +13,24 @@ function LatestProject() {
       <div className="project-grid">
         <div className="project-card">
           <h3 className="card-title">
-            Java e-Commerce Project
+            Best Brightness Java based e-Commerce
             <a href="https://github.com/NNGuma/Best-Brightness.git" target="_blank" rel="noopener noreferrer">
               <SquareArrowOutUpRight className="card-icon" />
             </a>
           </h3>
-          <img src="" alt="e-Commerce" className="card-img" />
+          <img src={Bestbrighness} alt="e-Commerce" className="card-img" />
           <p className="project-description">A powerful Java-based platform with product management and payment integration.</p>
         </div>
 
         <div className="project-card">
           <h3 className="card-title">
-            Managing Student Records
-            <a href="https://github.com/NNGuma/student-management" target="_blank" rel="noopener noreferrer">
+            Smartphone & Accessories Online Shop
+            <a href="https://gumanondumiso.wixsite.com/guma-smartphones" target="_blank" rel="noopener noreferrer">
               <SquareArrowOutUpRight className="card-icon" />
             </a>
           </h3>
-          <img src="" alt="Student Management" className="card-img" />
-          <p className="project-description">Java app for Managing Student rcords.</p>
+          <img src={WIXweb} alt="Student Management" className="card-img" />
+          <p className="project-description">WIX based e-commerce website for selling  Smart phone and accesories online</p>
         </div>
 
         <div className="project-card">
@@ -58,19 +62,19 @@ function LatestProject() {
               <SquareArrowOutUpRight className="card-icon" />
             </a>
           </h3>
-          <img src="" alt="NextJS Dashboard" className="card-img" />
+          <img src={Portfolio} alt="NextJS Dashboard" className="card-img" />
           <p className="project-description">Portfolio Website made with React</p>
         </div>
 
     
         <div className="project-card">
           <h3 className="card-title">
-            Fashion By Lila 
-            <a href="https://github.com/your-repo-5" target="_blank" rel="noopener noreferrer">
+            Fashion By Leela 
+            <a href="https://github.com/NNGuma/Fashion-By-Leela.git" target="_blank" rel="noopener noreferrer">
               <SquareArrowOutUpRight className="card-icon" />
             </a>
           </h3>
-          <img src="" alt="NextJS Dashboard" className="card-img" />
+          <img src={LeelaFashion} alt="NextJS Dashboard" className="card-img" />
           <p className="project-description">Static Fashion Website made with HTML , CSS And JavaScript</p>
         </div>
 

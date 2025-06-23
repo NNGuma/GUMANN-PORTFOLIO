@@ -331,6 +331,7 @@ html, body {
   height: 18px;
   color: #32f0d0;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .card-icon:hover {
